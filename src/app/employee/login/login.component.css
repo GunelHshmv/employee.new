@@ -1,0 +1,71 @@
+bodey{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.cont{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url("https://gesrepair.com/wp-content/uploads/companies-that-focus-on-employee-happiness-1024x716.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+.cont::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 92vh;
+    opacity: 0.6;
+    background-color: black;
+    z-index: 0;
+}
+h3{
+    font-size: 32px;
+    color: aliceblue;
+    z-index: 4;
+}
+.main{
+    width: 50%;
+    height: 50vh;
+    margin-bottom: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 2;
+    background-color: white;
+    opacity: 0.8;
+}
+.inpDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+label{
+    margin-right:20% ;
+    font-size: 18px;
+    z-index: 5;
+}
+input{
+    width: 50%;
+    height: 32px;
+}
+.errorDiv{
+    width: 200px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    border: 1px dashed black;
+    background-color: white;
+}

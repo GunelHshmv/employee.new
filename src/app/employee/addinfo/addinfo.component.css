@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.cont{
+    width: 100%;
+    height: 94vh;
+    background-image: url("https://cms-assets.tutsplus.com/cdn-cgi/image/width=630/uploads/users/23/posts/29170/image/how-to-write-employee-handbook-for-small-business.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgb(250, 191, 235); */
+}
+.cont::before{
+    content: "";
+    position: absolute;
+    width: 99%;
+    height: 94vh;
+    opacity: 0.5;
+    background-color: black;
+    z-index: 0;
+}
+.head h3{
+    margin-top: 0;
+    font-size: 30px;
+    padding-top: 0px;
+    padding-left: 35%;
+    color: white;
+    opacity: 0.9;
+    z-index: 6;
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+form{ background-color: rgb(206, 206, 206);
+    opacity: 0.8;
+    border: 1px solid;
+    width: 40%;
+    z-index: 2;
+}
+.bigdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 22px;
+}
+.div{
+    height: 40px;
+    display: flex;
+    position: relative;
+}
+input{
+    width: 42%;
+    height: 30px;
+    position: absolute;
+    left: 48%;
+}
+label{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footPart{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70%;
+    
+ }
+ .btn{
+    width: 280px;
+    height: 24px;
+    margin-left: 3%;
+    border-radius: 20px;
+    background-color: white(146, 191, 243);
+    z-index: 4;
+}
+.btn:hover{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+.errordiv{
+    margin-left: 52%;
+    width: 180px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    border: 1px dashed red;
+    background-color: white;
+    color: red;
+}

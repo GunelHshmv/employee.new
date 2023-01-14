@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 92vh;
+     background-image: url("https://iveybusinessjournal.com/wp-content/uploads/2006/03/iStock_000012204568_Large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 92vh;
+    opacity: 0.3;
+    z-index: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.btn{
+    width: 16%;
+    height: 38px;
+    margin-top: 480px;
+    margin-left: 12%;
+    border-radius: 20px;
+    background-color: aliceblue;
+    z-index: 4;
+    opacity: 0.9;
+}
+.btn:hover{
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: brown;
+}
+a:hover{
+    color: blue;
+}
